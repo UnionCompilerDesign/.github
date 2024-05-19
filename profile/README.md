@@ -12,7 +12,6 @@ SLICC is an educational C compiler project designed to help students understand,
 - `symbol_table_stack/`
 - `semantic_analysis/`
 - `ir/`
-- `jit/`
 
 ## Features
 
