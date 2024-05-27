@@ -7,6 +7,8 @@ Caleb L'Italien, John Daly, Kevin Welch, Thomas Breimer, Livi Gwinnett, Aaron Ca
 SLICC is an educational C compiler project designed to help students understand, at a high level, the design of a modern compiler.
 
 ## Project Structure
+- `common`
+- `integration`
 - `lexer/`
 - `parser/`
 - `symbol_table_stack/`
