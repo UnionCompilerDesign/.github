@@ -36,7 +36,7 @@ Alternatively:
 ### Installation
 Clone the repository and navigate to the project directory:
 ```
-git clone <repository-url>
+git clone git@github.com:UnionCompilerDesign/starter_code.git
 cd starter_code
 ```
 Build and test the project using Cargo:
