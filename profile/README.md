@@ -8,7 +8,7 @@ SLICC is a compiler for a subset of the C99 standard, designed for undergraduate
 
 ## Project Structure
 - `common/`: Definitions for `AST` and shared modules.
-- `integration/`: Integrates functionality from `common` and `sts` into `ir`.
+- `integration/`: Integrates functionality from `common` and `sts` into the `Module` type.
 - `ir/`: Converts instances of `Module` into pre-compiled LLVM modules.
 - `lexer/`: Transforms source code into instances of `Token`.
 - `parser/`: Constructs an `AST` from instances of `Token`.
