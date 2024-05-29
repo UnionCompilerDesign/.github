@@ -1,10 +1,10 @@
-# Simple Lightweight Instructional C Compiler
+# Simple Instructional C99 Compiler
 
 ## Authors
 Caleb L'Italien, John Daly, Kevin Welch, Thomas Breimer, Livi Gwinnett, Aaron Cass
 
 ## Overview
-SLICC is a compiler for a subset of the C99 standard, designed for undergraduate-level compiler design courses. SLICC is written in Rust and uses LLVM for backend processing with `SafeLLVM` serving as a wrapper for `llvm_sys`.
+SICC is a compiler for a subset of the C99 standard, designed for undergraduate-level compiler design courses. SICC is written in Rust and uses LLVM for backend processing with `SafeLLVM` serving as a wrapper for `llvm_sys`.
 
 ## Project Structure
 - `common/`: Definitions for Abstract Syntax Trees (`AST`) and shared modules.
@@ -46,7 +46,7 @@ cargo test --all
 ```
 
 ### Usage
-SLICC is freely available for use. A complete version of the project can be provided upon request by instructors.
+SICC is freely available for use. A complete version of the project can be provided upon request by instructors.
 
 ### How to Contribute
 Contributions are welcome! Please refer to the CONTRIBUTING.md file for guidelines on how to submit patches and bug reports. Contributions to the complete version are restricted to avoid potential conflicts of interest and breaches of academic integrity.
