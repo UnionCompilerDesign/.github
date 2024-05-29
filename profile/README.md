@@ -1,4 +1,4 @@
-# Simple Lightweight Instructional C Compiler (SLICC)
+# Simple Lightweight Instructional C Compiler
 
 ## Authors
 Caleb L'Italien, John Daly, Kevin Welch, Thomas Breimer, Livi Gwinnett, Aaron Cass
