@@ -7,13 +7,13 @@ Caleb L'Italien, John Daly, Kevin Welch, Thomas Breimer, Livi Gwinnett, Aaron Ca
 SLICC is a compiler for a subset of the C99 standard, designed for undergraduate-level compiler design courses. It utilizes LLVM for backend processing, with `SafeLLVM` serving as a wrapper for `llvm_sys`.
 
 ## Project Structure
-- `common/`: Definitions for `AST` and shared modules.
+- `common/`: Definitions for Abstract Syntax Trees (`AST`) and shared modules.
 - `integration/`: Integrates functionality from `common` and `sts` into the `Module` type.
-- `ir/`: Converts instances of `Module` into pre-compiled LLVM modules.
+- `ir/`: Converts instances of `Module` into pre-compiled LLVM modules in parallel.
 - `lexer/`: Transforms source code into instances of `Token`.
 - `parser/`: Constructs an `AST` from instances of `Token`.
 - `src/`: Main driver for the compiler.
-- `sts/`: Generates a `Symbol Table Stack (STS)` from an `AST`.
+- `sts/`: Generates a Symbol Table Stack (`STS`) from an `AST`.
 - `tests/`: Conducts end-to-end testing by processing a `.c` file through `src` and validating the resulting LLVM module.
 
 ## Features
