@@ -28,6 +28,7 @@ SLICC is a compiler for a subset of the C99 standard, designed for undergraduate
 - `llvm_sys`
 - `rustc`
 - `cargo`
+
 Alternatively:
 - Docker CLI
 - Docker Daemon
