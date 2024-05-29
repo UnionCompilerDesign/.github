@@ -4,7 +4,7 @@
 Caleb L'Italien, John Daly, Kevin Welch, Thomas Breimer, Livi Gwinnett, Aaron Cass
 
 ## Overview
-SLICC is a compiler for a subset of the C99 standard, designed for undergraduate-level compiler design courses. It's written in Rust and uses LLVM for backend processing with `SafeLLVM` serving as a wrapper for `llvm_sys`.
+SLICC is a compiler for a subset of the C99 standard, designed for undergraduate-level compiler design courses. SLICC is written in Rust and uses LLVM for backend processing with `SafeLLVM` serving as a wrapper for `llvm_sys`.
 
 ## Project Structure
 - `common/`: Definitions for Abstract Syntax Trees (`AST`) and shared modules.
