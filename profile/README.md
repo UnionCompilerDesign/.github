@@ -1,6 +1,6 @@
 # Simple Instructional C99 Compiler
 
-## Authors
+## Contributors
 Caleb L'Italien, John Daly, Kevin Welch, Thomas Breimer, Livi Gwinnett, Aaron Cass
 
 ## Overview
