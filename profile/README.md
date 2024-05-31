@@ -18,7 +18,7 @@ SICC is a compiler for a subset of the C99 standard, designed for undergraduate-
 
 ## Features
 - Includes a `Dockerfile` for each assignment, enabling completion without local installations.
-- SafeLLVM provides a simplified and safe API for interfacing with LLVM.
+- `SafeLLVM` provides a simplified and safe API for interfacing with LLVM.
 
 ## Getting Started
 ### Prerequisites
